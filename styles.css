@@ -1,0 +1,125 @@
+.container{
+    display: grid;
+    grid-template-columns: 800px 300px;
+    grid-template-rows: 370px auto auto;
+    grid-template-areas: "header header"
+                         "main .sidebar"
+                         "footer footer";
+    grid-gap:70px;
+}
+.imagetest{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 100px;
+}
+.edit{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.top{
+    background: #63B3ED;
+    color: #FFFFFF;
+    grid-column-start: 1;
+    grid-column-end: header;
+    grid-row-start: 1;
+    padding-top:30px;
+    padding-bottom:30px;
+    margin-top:-8px;
+    margin-left:-8px;
+    margin-right:-8px;
+}
+h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+h2{
+    font-size: 32px;
+    color:#48BB78;
+
+}
+h3{
+    text-align: left;
+}
+.imaget2{
+    width: 8.3cm;
+    height: 5cm;
+    border-radius: 50px;
+    float:right;
+    padding-left: 5px;
+
+}
+.side{
+    grid-column-start: 2;
+    grid-row-start:2;
+}
+footer{
+    grid-column-start:1;
+    grid-column-end:header;
+    grid-row:3;
+    background-color: #2C5282;
+    margin-top:10px;
+    color:#FFFFFF;
+}
+.second{
+    grid-column-start:1;
+    grid-row-start:2;
+    padding-left:70px;
+}
+.socials{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+.archive{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+ul{
+    padding-left:0px;
+}
+li{
+    padding-bottom: 10px;
+    color:#4299E1;
+}
+.imaget3{
+    width:6cm;
+    height:5cm;
+    float:left;
+    padding-right:10px;
+}
+.tester{
+    padding-top:25px;
+}
+.date{
+    padding-top:-10px;
+    color:#718096;
+}
+
+.about{
+    margin-top: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#000000;
+    padding: 10px 10px 10px 10px;
+    background-color: #E2E8F0;
+}
+.socialtop{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#48BB78;
+}
+.archivetop{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#48BB78;
+}
+p{
+    margin-bottom:5px;
+    font-size: 18px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif
+    color:#2D3748;
+}
